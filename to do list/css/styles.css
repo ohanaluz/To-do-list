@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    list-style: none;
+}
+
+body{
+    background-image: url("/components/backg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.logo img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    
+}
+
+
+
+.container{
+    background-color:#D2CFEC;
+    width: 700px;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 200px auto 0;
+    color: #131A40;
+    position: relative;
+    margin-top: 20px;
+    
+    
+}
+
+.inputTask {
+    border: none;
+    border-radius: 30px;
+    width: 420px;
+    height: 50px;
+    padding: 15px;
+    margin-left: 20px;
+    padding: auto;
+    margin-top: 15px;
+    color: #122A73;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.inputTask::placeholder{
+    font-style: italic;
+}
+
+.buttonAdd {
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #131A40;
+    color: #D2CFEC;
+    padding: 10px;
+    margin-left: 70px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.buttonAdd:hover{
+    background-color: #122A73;
+    transition-duration: 0.5s;
+    font-weight: 600;
+    padding: 9px;
+}
+
+.listTask {
+    width: 100%;
+    list-style: none;
+}
+
+.task {
+    background-color: #aaa8d6;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 15px 10px 10px;
+    box-shadow: 0px 0px 67px -6px rgba(125,149,212,1);
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.task img {
+    opacity: 0;
+    transition: opacity 0.5s
+
+}
+
+.task:hover img {
+    opacity: 1;
+}
+
+.task img:checked {
+    display: flex;
+}
+
+.task img.checked {
+    display: inline-block;
+}
+
+.task.concluded {
+    text-decoration: line-through;
+    font-style: italic;
+    opacity: 0.8;
+    background-color: #a086b4;
+   
+}
+
+.task p {
+    word-wrap: break-word;
+}

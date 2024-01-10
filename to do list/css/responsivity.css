@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 600px) {
+    
+    .container {
+        width: 90%;
+    }
+    .inputTask {
+        width: 70%;
+    }
+
+    @media screen and (max-width: 600px) {
+    .inputTask {
+        width: 80%; 
+        margin-bottom: 10px; 
+        max-width: 70%;
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .buttonAdd {
+        
+        margin-left: auto; 
+        margin-right: auto; 
+        align-items: center;
+        display: block; 
+        max-width: 30%;
+    }
+
+    .inputTask {
+        height: auto; 
+       
+        padding: auto;
+        font-size: 14px;
+        margin-bottom: 30px;
+        overflow-y: auto; 
+    }
+}
+
+.task p {
+    overflow: visible; 
+    height: auto;
+    word-wrap: break-word;
+}
+    
+}

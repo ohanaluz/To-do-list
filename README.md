@@ -20,7 +20,7 @@ How to Use
 Clone the repository to your local machine.
 
 bash
-git clone [https://github.com/your-username/to-do-list-app.git](https://github.com/ohanaluz/To-do-list)
+git clone https://github.com/ohanaluz/To-do-list.git
 Open the index.html file in your preferred web browser.
 
 Use the input field to add new tasks, click the checkbox to mark tasks as completed, and click the trash icon to delete tasks.
@@ -61,7 +61,7 @@ Como Usar
 Clone o repositório em sua máquina local.
 
 bash
-git clone [https://github.com/seu-nome/aplicativo-lista-de-tarefas.git](https://github.com/ohanaluz/To-do-list)
+git clone https://github.com/ohanaluz/To-do-list.git
 Abra o arquivo index.html em seu navegador da web preferido.
 
 Use o campo de entrada para adicionar novas tarefas, clique na caixa de seleção para marcar tarefas como concluídas e clique no ícone de lixeira para excluir tarefas.
